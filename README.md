@@ -33,6 +33,34 @@ A不應該直接調用C的方法
 A只需要知道B提供的接口，而不需要知道C的存在，從而減少了系統的耦合度。
 ---
 
+# 創建型模式(Create)
+簡單工廠(SimpleFactory)
+抽象工廠(AbstractFactory)
+工廠方法(FactoryMethod)
+創建者模型(Builder)
+原型模型(Prototype)
+單例模型(Singleton)
+# 結構型模式(Structure)
+適配器模式(Adapter)
+橋接模式(Bridge)
+組合模式(Composite)
+裝飾(者/器)模式(Decorator)
+外觀/門面模式(Facade)
+享元模式(Flyweight)
+代理模式(Proxy)
+# 行為型模式(Behavior)
+觀察者模式(Observer)
+模板方法(TemplateMethod)
+命令模式(Command)
+狀態模式(State)
+責任鏈模式(Chain of Responsibility)
+解釋器模式(Interpreter)
+中介者模式(Mediator)
+訪問者模式(Visitor)
+備忘錄模式(Memento)
+迭代器模式(Iterator)
+策略模式(Strategy)
+
 # git commit message
 - 常用描述
 ```
