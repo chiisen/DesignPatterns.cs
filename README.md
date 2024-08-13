@@ -83,7 +83,9 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 
 # 結構型模式(Structure)
 
-適配器模式(Adapter)  
+[適配器模式(Adapter)](./Structure/Adapter/Adapter.sln)  
+- 使用 Adapter 設計模式將一個類別的介面轉換為客戶端期望的另一個介面。  
+
 橋接模式(Bridge)  
 [組合模式(Composite)](./Structure/Composite/Composite.sln)  
 - Composite 設計模式允許你將物件組合成樹狀結構來表示「部分-整體」的層次結構。這個模式讓客戶端可以統一地處理單個物件和物件的組合。  
