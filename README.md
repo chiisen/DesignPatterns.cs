@@ -93,7 +93,8 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 [裝飾(者/器)模式(Decorator)](./Structure/Decorator/Decorator.sln)  
 - 可以動態地給對象添加新的功能。  
 
-外觀/門面模式(Facade)  
+[外觀/門面模式(Facade)](./Structure/Facade/Facade.sln)  
+- 的是提供一個簡單的介面來訪問複雜子系統中的多個類別。這樣可以讓客戶端程式碼更容易使用和理解。  
 
 [享元模式(Flyweight)](./Structure/Flyweight/Flyweight.sln)  
 - 減少物件的數量，從而節省記憶體。  
