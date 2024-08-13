@@ -40,13 +40,44 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 ---
 
 # 創建型模式(Create)
+設計模式 SimpleFactory、AbstractFactory、FactoryMethod 的差異為何?  
+這三種設計模式都是用來創建對象的工廠模式，但它們在結構和用途上有所不同：  
 
-簡單工廠(SimpleFactory)  
-抽象工廠(AbstractFactory)  
-工廠方法(FactoryMethod)  
-創建者模型(Builder)  
-原型模型(Prototype)  
-單例模型(Singleton)  
+1. **Simple Factory (簡單工廠模式)**：  
+- [⭐ 簡單工廠(SimpleFactory)](./Create/SimpleFactory/SimpleFactory.sln)  
+結構：由一個工廠類負責創建所有的產品對象。  
+用途：當創建的對象較少且不需要擴展時使用。  
+優點：簡單易用，適合小型應用。  
+缺點：違反開放封閉原則，新增產品需要修改工廠類。  
+
+2. **Factory Method (工廠方法模式)**：  
+- [⭐ 工廠方法(FactoryMethod)](./Create//FactoryMethod/FactoryMethod.sln)  
+結構：定義一個創建對象的接口，讓子類決定實例化哪一個類。  
+工廠方法將實例化操作延遲到子類。  
+用途：當創建的對象需要較多的變化且需要擴展時使用。  
+優點：符合開放封閉原則，新增產品不需要修改現有代碼。  
+缺點：增加了系統的複雜性，需要更多的類來管理。  
+
+3. **Abstract Factory (抽象工廠模式)**：  
+- [⭐ 抽象工廠(AbstractFactory)](./Create/AbstractFactory/AbstractFactory.sln)  
+結構：提供一個創建一系列相關或相互依賴對象的接口，而無需指定它們具體的類。  
+用途：當需要創建一組相關或依賴的對象時使用。  
+優點：符合開放封閉原則，易於擴展，能夠創建一組相關的對象。  
+缺點：增加了系統的複雜性，需要更多的類來管理。  
+
+---
+
+這些模式的選擇取決於具體的需求和應用場景。
+
+---
+
+[創建者模型(Builder)](./Create/Builder/Builder.sln)  
+- Builder 可以讓你更靈活地構建複雜物件，並且可以很容易地擴展和修改構建過程。  
+
+[原型模型(Prototype)](./Create/Prototype/Prototype.sln)  
+- Prototype 模式允許你創建對象的複製，而不是通過直接實例化類來創建新對象。這在需要大量相似對象的情況下特別有用。  
+
+[單例模型(Singleton)](./Create//Singleton/Singleton.sln)  
 
 ---
 
@@ -54,7 +85,9 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 
 適配器模式(Adapter)  
 橋接模式(Bridge)  
-組合模式(Composite)  
+[組合模式(Composite)](./Structure/Composite/Composite.sln)  
+- Composite 設計模式允許你將物件組合成樹狀結構來表示「部分-整體」的層次結構。這個模式讓客戶端可以統一地處理單個物件和物件的組合。  
+
 裝飾(者/器)模式(Decorator)  
 外觀/門面模式(Facade)  
 享元模式(Flyweight)  
