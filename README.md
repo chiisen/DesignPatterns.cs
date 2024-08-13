@@ -90,9 +90,14 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 [組合模式(Composite)](./Structure/Composite/Composite.sln)  
 - Composite 設計模式允許你將物件組合成樹狀結構來表示「部分-整體」的層次結構。這個模式讓客戶端可以統一地處理單個物件和物件的組合。  
 
-裝飾(者/器)模式(Decorator)  
+[裝飾(者/器)模式(Decorator)](./Structure/Decorator/Decorator.sln)  
+- 可以動態地給對象添加新的功能。  
+
 外觀/門面模式(Facade)  
-享元模式(Flyweight)  
+
+[享元模式(Flyweight)](./Structure/Flyweight/Flyweight.sln)  
+- 減少物件的數量，從而節省記憶體。  
+
 代理模式(Proxy)  
 
 ---
