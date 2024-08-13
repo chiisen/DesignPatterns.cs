@@ -1,6 +1,8 @@
 ﻿namespace DesignPatterns.Adapter
 {
-    // 被適配的類別
+    /// <summary>
+    /// 被適配的類別
+    /// </summary>
     public class Adaptee
     {
         public void SpecificRequest()

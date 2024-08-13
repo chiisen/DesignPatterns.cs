@@ -1,6 +1,8 @@
 ﻿namespace DesignPatterns.Adapter
 {
-    // 適配器
+    /// <summary>
+    /// 適配器
+    /// </summary>
     public class Adapter : ITarget
     {
         private readonly Adaptee _adaptee;
