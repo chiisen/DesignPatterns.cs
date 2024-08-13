@@ -98,7 +98,8 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 [享元模式(Flyweight)](./Structure/Flyweight/Flyweight.sln)  
 - 減少物件的數量，從而節省記憶體。  
 
-代理模式(Proxy)  
+[代理模式(Proxy)](./Structure/Proxy/Proxy.sln)  
+- 可以在請求前後執行一些操作。  
 
 ---
 
