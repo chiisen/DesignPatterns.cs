@@ -83,23 +83,25 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 
 # 結構型模式(Structure)
 
-[適配器模式(Adapter)](./Structure/Adapter/Adapter.sln)  
+[1️⃣ 適配器模式(Adapter)](./Structure/Adapter/Adapter.sln)  
 - 使用 Adapter 設計模式將一個類別的介面轉換為客戶端期望的另一個介面。  
 
-橋接模式(Bridge)  
-[組合模式(Composite)](./Structure/Composite/Composite.sln)  
+[2️⃣ 橋接模式(Bridge)](./Structure/Bridge/Bridge.sln)  
+- 它將抽象部分與實現部分分離，使它們可以獨立變化。這樣可以更靈活地擴展和維護代碼。  
+
+[3️⃣ 組合模式(Composite)](./Structure/Composite/Composite.sln)  
 - Composite 設計模式允許你將物件組合成樹狀結構來表示「部分-整體」的層次結構。這個模式讓客戶端可以統一地處理單個物件和物件的組合。  
 
-[裝飾(者/器)模式(Decorator)](./Structure/Decorator/Decorator.sln)  
+[4️⃣ 裝飾(者/器)模式(Decorator)](./Structure/Decorator/Decorator.sln)  
 - 可以動態地給對象添加新的功能。  
 
-[外觀/門面模式(Facade)](./Structure/Facade/Facade.sln)  
+[5️⃣ 外觀/門面模式(Facade)](./Structure/Facade/Facade.sln)  
 - 的是提供一個簡單的介面來訪問複雜子系統中的多個類別。這樣可以讓客戶端程式碼更容易使用和理解。  
 
-[享元模式(Flyweight)](./Structure/Flyweight/Flyweight.sln)  
+[6️⃣ 享元模式(Flyweight)](./Structure/Flyweight/Flyweight.sln)  
 - 減少物件的數量，從而節省記憶體。  
 
-[代理模式(Proxy)](./Structure/Proxy/Proxy.sln)  
+[7️⃣ 代理模式(Proxy)](./Structure/Proxy/Proxy.sln)  
 - 可以在請求前後執行一些操作。  
 
 ---
