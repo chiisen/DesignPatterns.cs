@@ -128,7 +128,9 @@ StateContext 類別負責維護當前狀態並在狀態之間切換。
 
 7️⃣ 中介者模式(Mediator)  
 
-8️⃣ 訪問者模式(Visitor)  
+[8️⃣ 訪問者模式(Visitor)](./Behavior/Visitor/Visitor.sln)  
+- 分離算法與對象結構，使得你可以在不改變對象結構的情況下新增新的操作。  
+可以輕鬆地新增新的訪問者，而不需要改變元素的結構。  
 
 9️⃣ 備忘錄模式(Memento)  
 
