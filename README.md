@@ -44,14 +44,14 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 這三種設計模式都是用來創建對象的工廠模式，但它們在結構和用途上有所不同：  
 
 1. **Simple Factory (簡單工廠模式)**：  
-- [⭐ 簡單工廠(SimpleFactory)](./Create/SimpleFactory/SimpleFactory.sln)  
+- [⭐ 1️⃣ 簡單工廠(SimpleFactory)](./Create/SimpleFactory/SimpleFactory.sln)  
 結構：由一個工廠類負責創建所有的產品對象。  
 用途：當創建的對象較少且不需要擴展時使用。  
 優點：簡單易用，適合小型應用。  
 缺點：違反開放封閉原則，新增產品需要修改工廠類。  
 
 2. **Factory Method (工廠方法模式)**：  
-- [⭐ 工廠方法(FactoryMethod)](./Create//FactoryMethod/FactoryMethod.sln)  
+- [⭐ 2️⃣ 工廠方法(FactoryMethod)](./Create//FactoryMethod/FactoryMethod.sln)  
 結構：定義一個創建對象的接口，讓子類決定實例化哪一個類。  
 工廠方法將實例化操作延遲到子類。  
 用途：當創建的對象需要較多的變化且需要擴展時使用。  
@@ -59,7 +59,7 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 缺點：增加了系統的複雜性，需要更多的類來管理。  
 
 3. **Abstract Factory (抽象工廠模式)**：  
-- [⭐ 抽象工廠(AbstractFactory)](./Create/AbstractFactory/AbstractFactory.sln)  
+- [⭐ 3️⃣ 抽象工廠(AbstractFactory)](./Create/AbstractFactory/AbstractFactory.sln)  
 結構：提供一個創建一系列相關或相互依賴對象的接口，而無需指定它們具體的類。  
 用途：當需要創建一組相關或依賴的對象時使用。  
 優點：符合開放封閉原則，易於擴展，能夠創建一組相關的對象。  
@@ -71,13 +71,13 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 
 ---
 
-[創建者模型(Builder)](./Create/Builder/Builder.sln)  
+[4️⃣ 創建者模型(Builder)](./Create/Builder/Builder.sln)  
 - Builder 可以讓你更靈活地構建複雜物件，並且可以很容易地擴展和修改構建過程。  
 
-[原型模型(Prototype)](./Create/Prototype/Prototype.sln)  
+[5️⃣ 原型模型(Prototype)](./Create/Prototype/Prototype.sln)  
 - Prototype 模式允許你創建對象的複製，而不是通過直接實例化類來創建新對象。這在需要大量相似對象的情況下特別有用。  
 
-[單例模型(Singleton)](./Create//Singleton/Singleton.sln)  
+[6️⃣ 單例模型(Singleton)](./Create//Singleton/Singleton.sln)  
 
 ---
 
@@ -108,19 +108,31 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 
 # 行為型模式(Behavior)
 
-觀察者模式(Observer)  
-[模板方法(TemplateMethod)](./Behavior/TemplateMethod/TemplateMethod.sln)  
+1️⃣ 觀察者模式(Observer)  
+
+[2️⃣ 模板方法(TemplateMethod)](./Behavior/TemplateMethod/TemplateMethod.sln)  
 - 定義了一個操作中的算法骨架，將一些步驟延遲到子類中。這樣，子類可以在不改變算法結構的情況下重新定義算法中的某些步驟。  
 
-命令模式(Command)  
-狀態模式(State)  
-責任鏈模式(Chain of Responsibility)  
-解釋器模式(Interpreter)  
-中介者模式(Mediator)  
-訪問者模式(Visitor)  
-備忘錄模式(Memento)  
-迭代器模式(Iterator)  
-策略模式(Strategy)  
+3️⃣ 命令模式(Command)  
+
+[4️⃣ 狀態模式(State)](./Behavior/State/State.sln)  
+- 管理物件的狀態轉換。IState 介面定義了狀態的行為，OnState 和 OffState 類別實現了具體的狀態行為。  
+StateContext 類別負責維護當前狀態並在狀態之間切換。  
+
+5️⃣ 責任鏈模式(Chain of Responsibility)  
+
+6️⃣ 解釋器模式(Interpreter)  
+
+7️⃣ 中介者模式(Mediator)  
+
+8️⃣ 訪問者模式(Visitor)  
+
+9️⃣ 備忘錄模式(Memento)  
+
+🔟 迭代器模式(Iterator)  
+
+[1️⃣1️⃣策略模式(Strategy)](./Behavior/Strategy/Strategy.sln)  
+- 設計使得我們可以輕鬆地擴展新的算法，而不需要修改現有的代碼。  
 
 ---
 
