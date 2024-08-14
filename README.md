@@ -132,7 +132,8 @@ StateContext 類別負責維護當前狀態並在狀態之間切換。
 
 9️⃣ 備忘錄模式(Memento)  
 
-🔟 迭代器模式(Iterator)  
+[🔟 迭代器模式(Iterator)](./Behavior/Iterator/Iterator.sln)  
+- 使用迭代器來遍歷一個自定義集合。  
 
 [1️⃣1️⃣策略模式(Strategy)](./Behavior/Strategy/Strategy.sln)  
 - 設計使得我們可以輕鬆地擴展新的算法，而不需要修改現有的代碼。  
