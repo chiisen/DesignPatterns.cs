@@ -121,12 +121,15 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 - 管理物件的狀態轉換。IState 介面定義了狀態的行為，OnState 和 OffState 類別實現了具體的狀態行為。  
 StateContext 類別負責維護當前狀態並在狀態之間切換。  
 
-5️⃣ 責任鏈模式(Chain of Responsibility)  
+[5️⃣ 責任鏈模式(Chain of Responsibility)](./Behavior/Chain_of_Responsibility/Chain_of_Responsibility.sln)  
+- 處理一系列請求。每個具體處理者都會檢查請求是否在其處理範圍內，如果是，則處理請求；否則，將請求傳遞給下一個處理者。  
 
 [6️⃣ 解釋器模式(Interpreter)](./Behavior/Interpreter/Interpreter.sln)  
 - 使用 Interpreter 模式來解析和計算簡單的數學表達式。  
 
-7️⃣ 中介者模式(Mediator)  
+[7️⃣ 中介者模式(Mediator)](./Behavior/Mediator/Mediator.sln)  
+- 使用 Mediator 來管理不同對象之間的通信。  
+這樣可以避免組件之間的直接依賴，從而提高系統的可維護性和可擴展性。 
 
 [8️⃣ 訪問者模式(Visitor)](./Behavior/Visitor/Visitor.sln)  
 - 分離算法與對象結構，使得你可以在不改變對象結構的情況下新增新的操作。  
