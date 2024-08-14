@@ -135,7 +135,8 @@ StateContext 類別負責維護當前狀態並在狀態之間切換。
 - 分離算法與對象結構，使得你可以在不改變對象結構的情況下新增新的操作。  
 可以輕鬆地新增新的訪問者，而不需要改變元素的結構。  
 
-9️⃣ 備忘錄模式(Memento)  
+[9️⃣ 備忘錄模式(Memento)](./Behavior/Memento/Memento.sln)  
+- 用於保存和恢復對象的狀態，這在需要撤銷操作的應用程序中非常有用。  
 
 [🔟 迭代器模式(Iterator)](./Behavior/Iterator/Iterator.sln)  
 - 使用迭代器來遍歷一個自定義集合。  
