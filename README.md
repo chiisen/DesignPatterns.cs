@@ -113,7 +113,8 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 [2️⃣ 模板方法(TemplateMethod)](./Behavior/TemplateMethod/TemplateMethod.sln)  
 - 定義了一個操作中的算法骨架，將一些步驟延遲到子類中。這樣，子類可以在不改變算法結構的情況下重新定義算法中的某些步驟。  
 
-3️⃣ 命令模式(Command)  
+[3️⃣ 命令模式(Command)](./Behavior/Command/Command.sln)  
+- 將命令的發送者和接收者解耦。這樣的設計使得命令可以被記錄、排隊、撤銷和重做。  
 
 [4️⃣ 狀態模式(State)](./Behavior/State/State.sln)  
 - 管理物件的狀態轉換。IState 介面定義了狀態的行為，OnState 和 OffState 類別實現了具體的狀態行為。  
