@@ -108,7 +108,8 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 
 # 行為型模式(Behavior)
 
-1️⃣ 觀察者模式(Observer)  
+[1️⃣ 觀察者模式(Observer)](./Behavior/Observer/Observer.sln)  
+- 允許一個對象（Subject）在其狀態改變時通知多個觀察者（Observers）。  
 
 [2️⃣ 模板方法(TemplateMethod)](./Behavior/TemplateMethod/TemplateMethod.sln)  
 - 定義了一個操作中的算法骨架，將一些步驟延遲到子類中。這樣，子類可以在不改變算法結構的情況下重新定義算法中的某些步驟。  
