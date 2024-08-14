@@ -123,7 +123,8 @@ StateContext 類別負責維護當前狀態並在狀態之間切換。
 
 5️⃣ 責任鏈模式(Chain of Responsibility)  
 
-6️⃣ 解釋器模式(Interpreter)  
+[6️⃣ 解釋器模式(Interpreter)](./Behavior/Interpreter/Interpreter.sln)  
+- 使用 Interpreter 模式來解析和計算簡單的數學表達式。  
 
 7️⃣ 中介者模式(Mediator)  
 
