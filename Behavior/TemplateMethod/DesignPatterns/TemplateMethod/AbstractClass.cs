@@ -5,7 +5,9 @@
     /// </summary>
     abstract class AbstractClass
     {
-        // 模板方法，定義算法的骨架
+        /// <summary>
+        /// 模板方法，定義算法的骨架
+        /// </summary>
         public void TemplateMethod()
         {
             PrimitiveOperation1();
