@@ -1,4 +1,7 @@
 # DesignPatterns.cs
+
+![Design Patterns In CS](./images/DesignPatternsInCS.png)
+
 C# 設計模式學習筆記與程式碼範例
 
 ---
@@ -43,6 +46,8 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 設計模式 SimpleFactory、AbstractFactory、FactoryMethod 的差異為何?  
 這三種設計模式都是用來創建對象的工廠模式，但它們在結構和用途上有所不同：  
 
+![Factory Pattern](./images/FactoryPattern.png)
+
 1. **Simple Factory (簡單工廠模式)**：  
 - [⭐ 1️⃣ 簡單工廠(SimpleFactory)](./Create/SimpleFactory/SimpleFactory.sln)  
 結構：由一個工廠類負責創建所有的產品對象。  
@@ -78,6 +83,7 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 - Prototype 模式允許你創建對象的複製，而不是通過直接實例化類來創建新對象。這在需要大量相似對象的情況下特別有用。  
 
 [6️⃣ 單例模型(Singleton)](./Create//Singleton/Singleton.sln)  
+![Singleton Pattern](./images/SingletonPattern.png)
 
 ---
 
@@ -93,6 +99,7 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 - Composite 設計模式允許你將物件組合成樹狀結構來表示「部分-整體」的層次結構。這個模式讓客戶端可以統一地處理單個物件和物件的組合。  
 
 [4️⃣ 裝飾(者/器)模式(Decorator)](./Structure/Decorator/Decorator.sln)  
+![Decorator Pattern](./images/DecoratorPattern.png)
 - 可以動態地給對象添加新的功能。  
 
 [5️⃣ 外觀/門面模式(Facade)](./Structure/Facade/Facade.sln)  
@@ -115,6 +122,7 @@ A只需要知道B提供的接口，而不需要知道C的存在，從而減少�
 - 定義了一個操作中的算法骨架，將一些步驟延遲到子類中。這樣，子類可以在不改變算法結構的情況下重新定義算法中的某些步驟。  
 
 [3️⃣ 命令模式(Command)](./Behavior/Command/Command.sln)  
+![Command Pattern](./images/CommandPattern.png)
 - 將命令的發送者和接收者解耦。這樣的設計使得命令可以被記錄、排隊、撤銷和重做。  
 
 [4️⃣ 狀態模式(State)](./Behavior/State/State.sln)  
@@ -142,6 +150,7 @@ StateContext 類別負責維護當前狀態並在狀態之間切換。
 - 使用迭代器來遍歷一個自定義集合。  
 
 [1️⃣1️⃣策略模式(Strategy)](./Behavior/Strategy/Strategy.sln)  
+![Strategy Pattern](./images/StrategyPattern.png)
 - 設計使得我們可以輕鬆地擴展新的算法，而不需要修改現有的代碼。  
 
 ---
